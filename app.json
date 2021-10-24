@@ -1,0 +1,47 @@
+{
+    "name": "DevProfilio",
+    "description": "Simple card website for developers.",
+    "logo": "",
+    "keywords": [
+        "developerwebsite",
+        "flask",
+        "website",
+        "bootstrap"
+    ],
+    "repository": "https://github.com/noob-kittu/DevProfilio",
+    "website": "xgraphika.com",
+    "env": {
+        "NAME": {
+            "description": "ADD HERE YOUR NAME",
+            "value": ""
+        },
+        "IMAGE": {
+            "description": "ADD YOUR IMAGE URL HERE",
+            "value": ""
+        },
+        "SHORT_BIO": {
+            "description": "ADD YOUR SHORT BIO HERE",
+            "value": ""
+        },
+        "ABOUT": {
+            "description": "ADD YOUR ABOUT DESCRIPTION",
+            "value": ""
+        },
+        "GITHUB": {
+            "description": "ADD YOUR GITHUB URL",
+            "value": ""
+        },
+        "FACEBOOK": {
+            "description": "ADD YOUR FACEBOOK",
+            "value": ""
+        },
+        "INSTAGRAM": {
+            "description": "ADD YOUR INSTAGRAM URL",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        } ]
+}
