@@ -9,4 +9,4 @@ def index():
 
 
 
-app.run(debug=True)
+app.run()
