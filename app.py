@@ -8,4 +8,4 @@ def index():
     return render_template("index.html", name=NAME, image=IMAGE, bio=SHORT_BIO, about=ABOUT, git=GITHUB, fb=FACEBOOK, ig=INSTAGRAM)
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
